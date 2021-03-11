@@ -1,0 +1,7 @@
+baseURL = "https://eth0net.io/"
+
+title = "eth0net"
+keywords = "eth0net software developer"
+copyright = "Elliot Thomas"
+
+# enableRobotsTXT = true

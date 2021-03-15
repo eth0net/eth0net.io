@@ -135,6 +135,17 @@ footer {
   font-size: 0.75em;
 }
 
+#footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+#footer-logo svg {
+  fill: currentColor;
+  height: 3em;
+  opacity: 0.75;
+}
+
 footer > .container {
   display: flex;
   flex-flow: row wrap;
@@ -152,7 +163,6 @@ footer > .container > div {
   justify-content: center;
 }
 
-footer > .container > a,
 footer > .container > div > * {
   margin: 1em;
 }
@@ -174,19 +184,19 @@ footer a:hover {
   }
 }
 
-@media only screen and (max-width: 539px) {
-  #footer-home {
+@media only screen and (max-width: 564px) {
+  #footer-logo {
     display: none;
   }
 }
 
-@media only screen and (min-width: 540px) {
+@media only screen and (min-width: 565px) {
   .card {
     width: calc(50% - 5em - 2px);
   }
 
   footer > .container > div {
-    width: 40%;
+    width: 42%;
   }
 
   footer > .container > #footer-left {
